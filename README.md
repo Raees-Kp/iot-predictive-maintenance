@@ -1,4 +1,4 @@
-# DSML Project - Contextual Predictive Maintenance Using Machine Learning
+# IoT Predictive Maintenance Using Machine Learning
 
 ## Overview
 
@@ -109,7 +109,7 @@ The dataset is used to train and evaluate predictive maintenance models.
 ## Project Structure
 
 ```text
-DSML-Project/
+iot-predictive-maintenance/
 │
 ├── data/
 ├── notebooks/
@@ -127,8 +127,8 @@ DSML-Project/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/DSML-Project.git
-cd DSML-Project
+git clone https://github.com/your-username/iot-predictive-maintenance.git
+cd iot-predictive-maintenance
 ```
 
 Install dependencies:
