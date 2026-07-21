@@ -1,8 +1,11 @@
 from flask import Flask, request, jsonify
 import joblib
 import pandas as pd
+import os
 
-model = joblib.load("../outputs/lgbm_model.pkl")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(BASE_DIR, "outputs", "lgbm_model.pkl")
+model = joblib.load(MODEL_PATH)
 
 app = Flask(__name__)
 
